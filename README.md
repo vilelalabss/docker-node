@@ -1,21 +1,26 @@
 # docker-node
 
-Built image
+**Build Image**
 ```bash
 docker build -t node_express .
+```
 
-View images
+**View Images**
 ```bash
 docker images
+```
 
-Run container
+**Run Container**
 ```bash
 docker run --rm -it -v $(pwd)/:/usr/src/app -p 3000:3000 node_express bash  
+```
 
-Install dependencies
+**Install Dependencies**
 ```bash
 npm i   
+```
 
-Run node api
+**Run Node Api**
 ```bash
 node index.js
+```
